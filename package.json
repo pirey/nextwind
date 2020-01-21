@@ -1,0 +1,26 @@
+{
+  "name": "nextjs-site",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "next start",
+    "build": "next build",
+    "preexport": "npm run build",
+    "export": "next export",
+    "dev": "next"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "next": "^9.2.0",
+    "react": "^16.12.0",
+    "react-dom": "^16.12.0"
+  },
+  "devDependencies": {
+    "@zeit/next-css": "^1.0.1",
+    "autoprefixer": "^9.7.4",
+    "tailwindcss": "^1.1.4"
+  }
+}
