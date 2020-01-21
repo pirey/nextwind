@@ -114,7 +114,7 @@ export function Hulu(props) {
 
 export function Mail(props) {
   return (
-    <svg viewBox="0 0 15 11" ariaLabel="closed email" {...props}>
+    <svg viewBox="0 0 15 11" aria-label="closed email" {...props}>
       <g
         transform="translate(-598.000000, -418.000000) translate(560.000000, 404.000000) translate(23.000000, 0.000000) translate(15.000000, 13.000000) translate(0.000000, 1.000000)"
         stroke="currentColor"
